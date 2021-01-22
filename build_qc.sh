@@ -14,7 +14,7 @@ git clone https://github.com/alisw/alidist.git
 #alibuild
 git clone https://github.com/alisw/alibuild.git
 #QCanalysis
-https://github.com/iravasen/QCanalysis.git
+git clone https://github.com/iravasen/QCanalysis.git
 
 
 #Building 
