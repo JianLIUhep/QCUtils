@@ -6,6 +6,7 @@ ITS QC quick start
 2. Configuration
    - Change the raw data path to the raw file you need to replay in the [readout.exe cfg](https://github.com/JianLIUhep/QCUtils/blob/e9670b38dbf0a698468ff8c73da3963c69488772/workdir/readout_replay.cfg#L48).
    - Change the data sampling rate in qc jsons for [Fhr](https://github.com/JianLIUhep/QCUtils/blob/e9670b38dbf0a698468ff8c73da3963c69488772/workdir/itsFhr.json#L71) and [Fee](https://github.com/JianLIUhep/QCUtils/blob/master/workdir/itsFee.json) tasks. The default value is 1, namely all payloads will be sent to QC. 
+   - Set the software version in [the script](https://github.com/JianLIUhep/QCUtils/blob/2ecbe1b67c08acebb74c1f00dbc93e299934e4ff/workdir/run_QC_task.sh#L7-L9).
 4. Run the qc script followed by a QC task name (e.g. Fhr or Fee):<br>
 `./run_QC_task.sh Fee`
 <br>Fhr: Fake-hit rate<br>
