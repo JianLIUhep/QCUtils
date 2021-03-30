@@ -38,8 +38,8 @@
                 "taskParameters": {
                     "layer": "1110000",
                     "decoderThreads": "1",
-                    "runNumberPath": "/data/shifts/runs/ibb2a/.run_counter"
-                    "geomPath": "/tmp/qc_tmp/o2sim"
+                    "runNumberPath": "/data/shifts/runs/ibb2a/.run_counter",
+                    "geomPath": "/home/its/jliu/QCUtils/workdir/o2sim"
                 }
             }
         },
