@@ -9,7 +9,15 @@ ITS QC quick start
 4. Run the qc script followed by a QC task name (e.g. Fhr or Fee):<br>
 `./run_QC_task.sh Fee`
 <br>Fhr: Fake-hit rate<br>
-Fee: Front-end electronics
+Fee: Front-end electronics<br>
+The qc logfiles can be found under `workdir/log/`. <br>
+To restart a new run (replaying a new file), simply rerun above the command. If one wants to kill all qc related processes, please run:<br>
+`kill_qc.sh`<br>
+A tmux session named `qc-its` will be created with 4 windows
+   - window 0: general 
+   - window 1: qc task
+   - window 2: StfBuilder
+   - window 3: readout.exe
 5. Checking the results via [CCDB](http://ccdb-test.cern.ch:8080/browse/qc/ITS/MO?report=true) and [QCG](https://qcg-test.cern.ch/?page=objectTree)
 The paths in CCDB and QCG are **/qc/ITS/MO/FHRTaskFW** and **qc/ITS/MO/ITSFeeFW** for the Fhr and Fee tasks, respectively. <br> To created a QC layout in the QCG: 
    - on the left side, click "+" of "MY LAYOUTS" to create a new layout with a name
