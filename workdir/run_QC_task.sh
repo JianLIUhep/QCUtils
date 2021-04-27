@@ -4,9 +4,9 @@ timestamp=$(date +%Y-%m-%d_%H-%M-%S)
 #QCdir=/home/its/QC_NewFormat/workdir
 QCdir=$PWD
 QCtask=$1
-readout_version=v1.6.1-3
-DD_version=v0.9.7-2
-QC_version=v1.12.0-3
+readout_version=v2.0.2-1
+DD_version=v0.10.4-1
+QC_version=v1.15.0-6
 
 setEnv() {
   tmux send-keys -t $1:$2  "aliswmod enter $3/$4" Enter
